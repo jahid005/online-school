@@ -1,0 +1,94 @@
+/* nedded css */
+a{
+    text-decoration:none;
+    color:none;
+}
+
+
+/* main css */
+.main-header{
+    background:#F0FFF0;
+    ;
+    /* height: 576PX; */
+}
+.header-text-color{
+    color: #21B573;
+
+}
+/* button */
+.button{
+    height: 42px;
+    width: 103px;
+    border-radius: 33px;
+    padding:12px 28px;
+    background: #21B573;
+    text-align:center;
+    color:#fff !important;
+
+}
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    font-size:16px;
+    line-height:24px;
+}
+/* card */
+.card{
+    display:flex;
+    align-items:center;
+    justify-items: center;
+    width: 200px;
+    height:200px;
+    padding: 12px;
+    background: #F8FFFB;
+    border-radius: 10px;
+    border: none;
+}
+.card:hover{
+    background:#fff;
+    box-shadow: 5px 5px 25px #807f7f;
+    transition:.50s;
+}
+.card img{
+    width:66px;
+    height: 85px;;
+}
+.course h1{
+    color:rgb(41, 27, 77);
+    font-weight:700;
+}
+/* card2 */
+.card2{
+    height:350px;
+    width:280px;
+    padding:10px;
+    text-align:left;
+    background:rgba(248, 247, 247, 0.877);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 3px 15px #8d8989;
+}
+/* testimonial */
+.tp{
+    display:flex;
+    justify-content: left;
+    align-content:center;
+}
+/* footer */
+.footer{
+    background:rgb(40, 35, 44);
+}
+.footer p{
+    color:#fff;
+}
+.footer h4{
+    color:#fff;
+}
+.footer ul li{
+    color:#fff;
+    list-style: none;
+    text-align:left;
+}
+.footer ul{
+    padding:0;
+}
